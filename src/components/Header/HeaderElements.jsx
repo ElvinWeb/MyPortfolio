@@ -21,10 +21,12 @@ export const NavLink = styled(ScrollLink)`
     color: #f6f6f6;
   }
 `;
-export const Logo = styled('div')`
+export const Logo = styled("div")`
   img {
     width: 47px;
     height: 47px;
+    border-radius: 22% 0 22% 0;
+    cursor: pointer;
   }
 `;
 export const Bars = styled(FaBars)`
@@ -42,7 +44,7 @@ export const NavMenu = styled.div`
   margin-right: -24px;
 
   .menu-item + .menu-item {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
   @media screen and (max-width: 768px) {
     display: none;

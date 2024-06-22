@@ -9,6 +9,7 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
+
 function ProjectCard() {
   return (
     <>

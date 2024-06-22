@@ -28,6 +28,7 @@ const CloseIcon = styled(FaTimes)`
   top: 2rem;
   cursor: pointer;
 `;
+
 export const NavMenu = styled.div`
   display: flex;
   justify-content: center;
@@ -67,6 +68,13 @@ function Dropdown({ isOpen, toggle }) {
           to="projects"
         >
           Projects
+        </NavLink>
+        <NavLink
+          onClick={toggle}
+          className="menu-item"
+          to="certificates"
+        >
+          Certificates
         </NavLink>
         <NavLink
           onClick={toggle}

@@ -1,4 +1,6 @@
 import React from "react";
+import logoImg from "../../assets/images/app-logo.png";
+import resume from "../../assets/Elvin-Sarkarov-CV.pdf";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 function Header({ toggle }) {
@@ -6,11 +8,14 @@ function Header({ toggle }) {
     <div className="Container" style={{ padding: 0 }}>
       <Nav>
         <Logo to="/">
-          <img src="" alt="logo" />
+          <img src={logoImg} alt="logo" />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">
             Projects
+          </NavLink>
+          <NavLink className="menu-item" to="certificates">
+            Certificates
           </NavLink>
           <NavLink className="menu-item" to="about">
             About
@@ -22,7 +27,8 @@ function Header({ toggle }) {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
+            href={resume}
+            download="cv"
             target="_blank"
             rel="noopener noreferrer"
           >
