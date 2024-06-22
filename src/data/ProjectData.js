@@ -1,7 +1,13 @@
+import cineFlixPreview from "../assets/images/CineFlix Preview.png";
+import forkifyPreview from "../assets/images/Forkify Preview.png";
+import gitFinderPreview from "../assets/images/GitFinder preview.png";
+import raineryPreview from "../assets/images/Rainery Preview.png";
+import rmtDevPreview from "../assets/images/rmtDev-preview.png";
+
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/src/assets/images/CineFlix Preview.png",
+    img: cineFlixPreview,
     title: "CineFlix",
     description:
       "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
@@ -10,7 +16,7 @@ export const ProjectList = [
     demo_url: "https://cine-flix-site.vercel.app/",
   },
   {
-    img: "/src/assets/images/Forkify Preview.png",
+    img: forkifyPreview,
     title: "Forkify",
     description:
       "A safety application for the Renewable Resources Dept. of BCIT",
@@ -19,7 +25,7 @@ export const ProjectList = [
     demo_url: "https://forkify-site.vercel.app/",
   },
   {
-    img: "/src/assets/images/GitFinder preview.png",
+    img: gitFinderPreview,
     title: "GitFinder",
     description:
       "An app where users can purchase online therapy sessions and chat with their therapists.",
@@ -28,7 +34,7 @@ export const ProjectList = [
     demo_url: "https://git-finder-site.vercel.app/",
   },
   {
-    img: "/src/assets/images/Rainery Preview.png",
+    img: raineryPreview,
     title: "Rainery",
     description:
       "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
@@ -37,7 +43,7 @@ export const ProjectList = [
     demo_url: "https://rainery-app.vercel.app/",
   },
   {
-    img: "/src/assets/images/Forkify Preview.png",
+    img: rmtDevPreview,
     title: "rmtDev",
     description:
       "An app to detect if a job posting is a scam or not using its description.",
