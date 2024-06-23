@@ -53,7 +53,7 @@ export const ProjectList = [
   },
 ];
 
-// --------------------------------------- Skills
+// --------------------------------------- Skills List
 
 export const stackList = [
   {
@@ -139,5 +139,16 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
+  },
+];
+
+// --------------------------------------- Skills
+
+export const socialIconList = [
+  {
+    url: "https://www.linkedin.com/in/elvin-sərkərov-886690236",
+  },
+  {
+    url: "https://github.com/ElvinWeb",
   },
 ];
